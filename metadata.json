@@ -1,0 +1,6 @@
+{
+  "name": "ECOSYNC",
+  "description": "Intelligent space automation, environmental sensing, and energy monitoring hardware platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

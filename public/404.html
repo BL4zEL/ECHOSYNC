@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ECOSYNC</title>
+    <script>
+      (function () {
+        var base = '/ECOSYNC';
+        var path = window.location.pathname;
+        var route = path.indexOf(base) === 0 ? path.slice(base.length) : path;
+        route = route.replace(/\/+$/, '') || '/';
+        var target = base + '/#' + (route.charAt(0) === '/' ? route : '/' + route);
+        window.location.replace(target + window.location.search + window.location.hash);
+      })();
+    </script>
+  </head>
+  <body class="bg-[#090A0B] text-[#F5F7F8]"></body>
+</html>
